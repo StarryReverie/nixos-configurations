@@ -35,7 +35,7 @@ in
         ipv4 = {
           method = "auto";
           ignore-auto-dns = true;
-          route1 = "10.194.0.0/16,10.194.0.1,100";
+          route1 = "10.63.0.0/16,10.63.0.1,100";
         };
         ipv6 = {
           method = "auto";

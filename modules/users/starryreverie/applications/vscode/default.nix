@@ -20,7 +20,7 @@ in
               # General
               editorconfig.editorconfig
               mkhl.direnv
-              mskelton.one-dark-theme
+              mvllow.rose-pine
               tamasfe.even-better-toml
               tekumara.typos-vscode
               usernamehw.errorlens

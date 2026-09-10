@@ -82,6 +82,14 @@ window-rule {
 }
 
 window-rule {
+    match app-id="^Alacritty$"
+    opacity 0.85
+    background-effect {
+        blur true
+    }
+}
+
+window-rule {
     match is-floating=true
     background-effect {
         blur true
@@ -90,7 +98,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"^firefox$"# title="^Picture-in-Picture$"
     open-floating true
 }
 
@@ -101,7 +109,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"org\.gnome\.Calculator"#
+    match app-id=r#"^org\.gnome\.Calculator$"#
     default-column-width { proportion 0.33333; }
 }
 

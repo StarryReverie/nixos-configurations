@@ -25,21 +25,21 @@ display-messages = true
 
 [editor.statusline]
 left = [
-    "mode",
-    "spacer",
-    "version-control",
-    "file-name",
-    "spinner",
-    "diagnostics",
+  "mode",
+  "spacer",
+  "version-control",
+  "file-name",
+  "spinner",
+  "diagnostics",
 ]
 right = [
-    "position",
-    "primary-selection-length",
-    "selections",
-    "total-line-numbers",
-    "file-encoding",
-    "file-line-ending",
-    "file-type",
+  "position",
+  "primary-selection-length",
+  "selections",
+  "total-line-numbers",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
 ]
 
 [editor.statusline.mode]
@@ -117,6 +117,12 @@ p = ":buffer-previous"
 [keys.normal.z]
 i = "scroll_up"
 k = "scroll_down"
+
+[keys.normal.space]
+f = "file_picker_in_current_directory"
+F = "file_picker"
+e = "file_explorer_in_current_buffer_directory"
+E = "file_explorer"
 
 [keys.select]
 A-i = "expand_selection"

@@ -12,21 +12,6 @@ let
       "--config"
       "${flakeRoot + /modules/users/starryreverie/applications/helix/config.toml}"
     ];
-
-    env.HELIX_RUNTIME = builtins.toString (
-      pkgs.symlinkJoin {
-        name = "helix-runtime-extra";
-
-        paths = [
-          pkgs.helix.runtime
-          (pkgs.runCommand "helix-themes-extra" { } ''
-            mkdir -p $out
-            cp -r ${flakeRoot + /modules/users/starryreverie/applications/helix/themes} $out/themes
-          '')
-        ];
-
-      }
-    );
   };
 in
 {

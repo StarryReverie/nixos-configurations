@@ -1,3 +1,6 @@
+[general]
+import = ["themes/rose-pine-moon.toml"]
+
 [font]
 size = 8.5
 
@@ -44,6 +47,6 @@ bindings = [
 
 [window]
 decorations = "None"
-opacity = 0.7
+opacity = 1.0
 blur = true
 padding = { x = 16, y = 10 }

@@ -14,6 +14,7 @@ in
       packages = [ pkgs.alacritty ];
 
       file.xdg_config."alacritty/alacritty.toml".source = ./alacritty.toml;
+      file.xdg_config."alacritty/themes".source = ./themes;
     };
   };
 }

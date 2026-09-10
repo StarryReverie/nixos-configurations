@@ -35,6 +35,7 @@ in
 
       file.xdg_config."zellij/config.kdl".source = ./config.kdl;
       file.xdg_config."zellij/layouts".source = ./layouts;
+      file.xdg_config."zellij/themes".source = ./themes;
     };
   };
 }

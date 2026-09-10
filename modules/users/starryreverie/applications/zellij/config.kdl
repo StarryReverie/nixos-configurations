@@ -151,7 +151,7 @@ plugins {
     compact-bar { path "compact-bar"; }
 }
 
-theme "one-half-dark"
+theme "rose-pine-moon"
 copy_on_select false
 show_startup_tips false
 pane_frame_style "full"

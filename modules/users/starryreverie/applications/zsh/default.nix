@@ -46,6 +46,8 @@ in
         ];
 
         shellAliases = {
+          c = "cd ..";
+
           sy = "sudo systemctl";
           sys = "sudo systemctl start";
           syt = "sudo systemctl stop";
